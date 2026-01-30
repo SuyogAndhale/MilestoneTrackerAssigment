@@ -50,7 +50,7 @@ export default function MilestoneForm({ onSubmit, loading }) {
         aria-invalid={!!error}
         disabled={loading}
         className="bg-gray-900/40 text-gray-100 border border-gray-700 rounded px-3 py-2 w-full mb-3 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-offset-0 focus:ring-indigo-400 focus:shadow-[0_8px_30px_rgba(99,102,241,0.12)] disabled:opacity-60 disabled:cursor-not-allowed"
-        placeholder="e.g., Finish project pitch"
+        placeholder="add title"
         value={title}
         onChange={(e) => { setTitle(e.target.value); setSuccess(''); }}
       />
