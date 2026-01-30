@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+/* Minimalist theme */
+:root{
+  --bg:#071022;
+  --card:rgba(255,255,255,0.03);
+  --border:rgba(255,255,255,0.06);
+  --muted:#94a3b8;
+  --accent:#60a5fa;
+}
+
+.bg-minimal{background:linear-gradient(180deg,#071022,#0b1220)}
+.glass{background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01));backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);border:1px solid var(--border)}
+
+@media (max-width: 420px){
+  .glass{backdrop-filter:none;-webkit-backdrop-filter:none;border:1px solid rgba(255,255,255,0.03)}
+}
+
+.button-primary{background:linear-gradient(90deg,rgba(255,255,255,0.03),rgba(255,255,255,0.02));border:1px solid var(--border);color:#fff}
+.text-muted{color:var(--muted)}
+
+/* responsive utility for container spacing */
+.container-padding{padding-left:1rem;padding-right:1rem}
+@media(min-width:640px){.container-padding{padding-left:1.5rem;padding-right:1.5rem}}
+@media(min-width:1024px){.container-padding{padding-left:2rem;padding-right:2rem}}
+
+/* entrance animation */
+@keyframes fadeInUp{0%{opacity:0;transform:translateY(8px)}100%{opacity:1;transform:none}}
+.animate-fadeIn{animation:fadeInUp .45s ease both}
+
+
+@keyframes fadeInUp{0%{opacity:0;transform:translateY(8px)}100%{opacity:1;transform:none}}
+.animate-fadeIn{animation:fadeInUp .45s ease both}
+
