@@ -35,35 +35,13 @@ A full-stack web application for tracking project milestones. This project is di
 - Responsive, modern UI
 ---
 
-## Project Structure
-```
-backend/
-	data/
-		milestones.json         # Data store for milestones
-	helpers/
-		milestoneStore.js       # Data access logic
-	routes/
-		milestones.js           # API routes
-	server.js                 # Express server
-frontend/
-	src/
-		api/                    # API calls
-		components/             # React components
-		hooks/                  # Custom hooks
-		pages/                  # Page components
-	public/                   # Static assets
-	App.jsx                   # Main app component
-	main.jsx                  # Entry point
-```
+`
 
----
+-
 
 ## API Endpoints
 - `GET /api/milestones` — List all milestones
-- `POST /api/milestones` — Add a new milestone
-- `PUT /api/milestones/:id` — Update a milestone
-- `DELETE /api/milestones/:id` — Delete a milestone
-
+- `POST /api/milestones` — Add a new l
 ---
 
 ## License
