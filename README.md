@@ -2,7 +2,7 @@
 ## Getting Started
 
 ### Prerequisites
-- [Node.js](https://nodejs.org/) (v16+ recommended)
+- [Node.js](https://nodejs.org/) (v20.19 or 22.12+ recommended)
 - [npm](https://www.npmjs.com/)
 
 ### Backend Setup
